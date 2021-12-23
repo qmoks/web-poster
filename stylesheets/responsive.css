@@ -1,0 +1,34 @@
+/* pc 1440*900 */
+@media all and (min-device-width: 1367px) and (max-device-width: 1440px){
+.site {width: 1440px; height: 3600px;}
+}
+/* pc 1920*1080 */
+@media all and (min-device-width: 1441px) and (max-device-width: 1920px){
+.site {width: 1920px; height: 4320px;}
+@import 'animation_pc_1920_1080.css';
+}
+/* pc 1366*768 */
+@media all and (min-device-width: 1025px) and (max-device-width: 1366px){
+.site {width: 1366px; height: 3072px;}
+@import 'animation_pc_1366_768.css';
+}
+/* pc 1024*768 */
+@media all and (min-device-width: 769px) and (max-device-width: 1024px){
+.site {width: 1024px; height: 3072px;}
+@import 'animation_pc_1024_768.css';
+}
+/* tablet 768*1024 */
+@media all and (min-device-width: 415px) and (max-device-width: 768px){
+.site {width: 768px; height: 4096px;}
+@import 'animation_tablet.css';
+}
+/* iphone 414*896*/
+@media all and (min-device-width: 361px) and (max-device-width: 414px){
+.site {width: 414px; height: 3584px;}
+@import 'animation_iphone.css';
+}
+/* andorid 360*640*/
+@media all and (max-device-width: 360px){
+.site {width: 360px; height: 2560px;}
+@import 'animation_android.css';
+}

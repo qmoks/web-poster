@@ -1,0 +1,14 @@
+@import 'reset.css';
+@import 'content.css';
+@import 'layout.css';
+@import 'responsive.css';
+@import 'animation_pc_1920_1080.css';
+@import 'animation_pc_1366_768.css';
+@import 'animation_pc_1024_768.css';
+@import 'animation_tablet.css';
+@import 'animation_iphone.css';
+@import 'animation_android.css';
+@font-face {
+   font-family: "Pixel";
+   src: url(../fonts/pixel.ttf) format("truetype");
+  }

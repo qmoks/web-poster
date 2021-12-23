@@ -1,0 +1,261 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 1440px;
+  width: 1000px;
+  height: 100%;
+  width: 100%;
+  background: #2D2D2D no-repeat;
+}
+.site {
+  width: 1440px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../images/backk.svg") no-repeat;
+  display: block;
+}
+.up {
+  position: relative;
+  width: 1920px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../images/up.svg")  no-repeat;
+}
+.maket-11 {
+  position: absolute;
+  width: 650px;
+  height: 750px;
+  left: 1.24%;
+  right: 77.71%;
+  top: 3.65%;
+  bottom: 95.17%;
+  background: url("../images/maket-11.svg") no-repeat;
+  animation: move 5s linear infinite;
+}
+.maket-12 {
+  position: absolute;
+  width: 650px;
+  height: 750px;
+  left: 18.59%;
+  right: 60.99%;
+  top: 35.25%;
+  bottom: 84.58%;
+  background: url("../images/maket-12.svg") no-repeat;
+  animation: move2 5s linear infinite;
+}
+.maket-13 {
+  position: absolute;
+  width: 1000px;
+  height: 1100px;
+  left: 48.59%;
+  right: 60.99%;
+  top: 8.25%;
+  bottom: 84.58%;
+  background: url("../images/maket-13.svg") no-repeat;
+}
+.maket-14 {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  left: 5.59%;
+  right: 60.99%;
+  top: 58.25%;
+  bottom: 84.58%;
+  background: url("../images/maket-14.svg") no-repeat;
+  animation: shake 0.5s linear infinite;
+  }
+
+  @keyframes shake {
+  0%   {left:6%;px; top:59%;}
+  25%  {left:5%; top:58%;}
+  50%  {left:6%;px; top:59%;}
+  75%  {left:5%; top:58%;}
+  100% {left:6%;px; top:59%;}
+
+}
+
+.logo {
+  position: absolute;
+  width: 800px;
+  height: 900px;
+  top: 16.25%;
+  left: 9.59%;
+  background: url("../images/maket-24.svg") no-repeat;
+
+}
+.logo:hover {
+
+  background: url("../images/maket-25.svg") no-repeat;
+}
+.maket-15 {
+  position: absolute;
+  width: 1100px;
+  height: 1100px;
+  left: 18.59%;
+  right: 60.99%;
+  top: 78.25%;
+  bottom: 84.58%;
+  background: url("../images/maket-15.svg") no-repeat;
+}
+.text15 {
+  font-family: 'Pixel', serif;
+  font-size: 100px;
+  line-height: 70px;
+  margin-top: 350px;
+  margin-left: 240px;
+}
+.text155 {
+  font-family: 'Pixel', serif;
+  font-size: 60px;
+  line-height: 50px;
+  margin-top: 220px;
+  margin-left: 130px;
+}
+.maket-16 {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: 64.96%;
+  right: 13.68%;
+  top: 72.53%;
+  bottom: 65.15%;
+  background: url("../images/maket-16.svg") no-repeat;
+
+}
+
+.pc-fan {
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  left: 74.5%;
+  right: 11.75%;
+  top: 82.64%;
+  bottom: 72.61%;
+  background: url("../images/fan-06.svg") no-repeat;
+  animation: fan 0.9s linear infinite;
+}
+.pc-fan2 {
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  left: 74.5%;
+  right: 11.75%;
+  top: 101.64%;
+  bottom: 72.61%;
+  background: url("../images/fan-06.svg") no-repeat;
+  animation: fan 0.9s linear infinite;
+}
+.maket-17 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 70.05%;
+  right: 9.79%;
+  top: 140.38%;
+  bottom: 54.56%;
+  background: url("../images/maket-17.svg") no-repeat;
+}
+.qr {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 70.05%;
+  right: 9.79%;
+  top: 140.38%;
+  bottom: 54.56%;
+  background: url("../images/qr-27-27.svg") no-repeat;
+  animation: shake2 0.5s linear infinite;
+  }
+
+  @keyframes shake2 {
+  0%   {left:71%;px; top:141%;}
+  25%  {left:69%; top:139%;}
+  50%  {left:71%;px; top:141%;}
+  75%  {left:69%; top:139%;}
+  100% {left:71%;px; top:141%;}
+
+}
+.button {
+  width: 1500px;
+  height: 1000px;
+  position: absolute;
+  left: 13.05%;
+  right: 9.79%;
+  top: 155.38%;
+  bottom: 54.56%;
+  background: url("../images/maketi-27.svg") no-repeat;
+}
+.btext {
+  font-family: 'Pixel', serif;
+  font-size: 100px;
+  line-height: 50px;
+  margin-top: 525px;
+  margin-left: 195px;
+  color: white;
+}
+.button-op {
+  width: 1500px;
+  height: 1000px;
+  position: absolute;
+  left: 13.05%;
+  right: 9.79%;
+  top: 155.38%;
+  bottom: 54.56%;
+  background: url("../images/maketi-28.svg") no-repeat;
+}
+.time {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: 31%;
+  right: 45.79%;
+  top: 175%;;
+  bottom: 45.51%;
+  background: url("../images/ttmaket-28.svg") no-repeat;
+  animation: timeed 2.5s linear infinite;
+}
+
+@keyframes timeed {
+0%   {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+
+}
+
+@keyframes move {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+@keyframes move2 {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:200px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:200px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+
+@keyframes fan {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.pers {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 1%;
+  right: 45.79%;
+  top: 230%;
+  bottom: 45.51%;
+  background: url("../images/pers-29.svg") no-repeat;
+  animation: dance 5s linear infinite;
+}
+@keyframes dance {
+  0%   {left:2%; top: 230%;}
+  50% {left:83%; top: 230%;}
+  100%   {left:2%; top: 230%;}
+}
